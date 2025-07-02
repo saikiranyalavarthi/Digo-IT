@@ -1,5 +1,5 @@
 import React from "react";
-import teamImage from "../assets/image1.jpg"; // Replace with your actual image path
+import teamImage from "../assets/image1.jpg"; // Ensure this image exists in your assets folder
 
 const About = () => {
   return (
@@ -14,9 +14,9 @@ const About = () => {
             </h1>
             <p className="text-lg leading-relaxed">
               <strong>Digo IT</strong> is a globally recognized, privately held
-              information technology solutions firm, established in 2000. With
-              <strong> over 500 years of collective experience</strong>, our
-              team brings unparalleled expertise and innovation to the table. We
+              information technology solutions firm, established in 2000. With{" "}
+              <strong>over 500 years of collective experience</strong>, our team
+              brings unparalleled expertise and innovation to the table. We
               pride ourselves on being a new breed of consulting and services
               firm, dedicated to building solutions and capabilities that drive
               competitive differentiation for our clients.
@@ -40,9 +40,7 @@ const About = () => {
               We earn a place at our clients' table by always putting their
               interests first. Our teams have hands-on experience managing the
               technologies we recommend, combined with a deep understanding of
-              business operations and digital transformation. We're proud to
-              maintain long-standing partnerships, and would be happy to connect
-              you with existing clients who can share their experience with us.
+              business operations and digital transformation.
             </p>
           </div>
 
@@ -59,7 +57,7 @@ const About = () => {
 
       {/* Section 2: Mission and Services */}
       <div className="max-w-7xl mx-auto bg-gray-100 px-6 py-16 space-y-16">
-        {/* OUR MISSION */}
+        {/* Our Mission */}
         <div className="text-center space-y-4">
           <h2 className="text-4xl font-bold text-indigo-700">Our Mission</h2>
           <p className="text-lg leading-relaxed font-medium text-gray-700">
@@ -75,7 +73,7 @@ const About = () => {
           </p>
         </div>
 
-        {/* WHAT WE DO */}
+        {/* What We Do */}
         <div>
           <h2 className="text-4xl font-bold text-indigo-700 text-center mb-8">
             What We Do
@@ -107,7 +105,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* OUR APPROACH */}
+        {/* Our Approach */}
         <div>
           <h2 className="text-3xl font-bold text-indigo-700 text-center mb-6">
             Our Approach
@@ -127,7 +125,7 @@ const About = () => {
           </p>
         </div>
 
-        {/* WHY CHOOSE US */}
+        {/* Why Choose Us */}
         <div>
           <h2 className="text-3xl font-bold text-indigo-700 text-center mb-6">
             Why Choose Digo IT?
@@ -163,7 +161,7 @@ const About = () => {
           </ul>
         </div>
 
-        {/* COMMITMENT TO EXCELLENCE */}
+        {/* Commitment to Excellence */}
         <div>
           <h2 className="text-3xl font-bold text-indigo-700 text-center mb-4">
             Commitment to Excellence
@@ -177,7 +175,7 @@ const About = () => {
           </p>
         </div>
 
-        {/* LOOKING AHEAD */}
+        {/* Looking Ahead */}
         <div>
           <h2 className="text-3xl font-bold text-indigo-700 text-center mb-4">
             Looking Ahead
@@ -185,9 +183,8 @@ const About = () => {
           <p className="text-lg text-gray-700 leading-relaxed">
             As we look to the future,{" "}
             <span className="text-indigo-600 font-semibold">Digo IT</span> stays
-            committed to our founding principles:
+            committed to our founding principles:{" "}
             <span className="text-purple-600 font-semibold">
-              {" "}
               innovation, client-focus, and excellence
             </span>
             . We’ll continue evolving our services to meet changing client and
